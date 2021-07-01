@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-demo
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: N@d33^^kh9719
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=code_with_nk_db

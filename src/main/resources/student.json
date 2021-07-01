@@ -1,0 +1,12 @@
+{
+  "student": {
+    "fname": "",
+    "lname": "",
+    "dob": ""
+  },
+  "class": {
+    "name": "",
+    "section": "",
+    "teacher": ""
+  }
+}
