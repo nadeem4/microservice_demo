@@ -1,9 +1,9 @@
-package com.codewithnk.microservice_demo.v1.model.mapper;
+package com.codewithnk.microservice_demo.model.mapper;
 
-import com.codewithnk.microservice_demo.v1.dto.AppModelDTO;
-import com.codewithnk.microservice_demo.v1.model.AppModel;
-import com.codewithnk.microservice_demo.v1.model.StudentModel;
-import com.codewithnk.microservice_demo.v1.model.SubjectModel;
+import com.codewithnk.microservice_demo.dto.AppModelDTO;
+import com.codewithnk.microservice_demo.model.AppModel;
+import com.codewithnk.microservice_demo.model.StudentModel;
+import com.codewithnk.microservice_demo.model.SubjectModel;
 
 public class AppModelMapper {
 

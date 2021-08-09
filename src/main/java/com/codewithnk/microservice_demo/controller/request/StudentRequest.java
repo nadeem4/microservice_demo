@@ -1,4 +1,4 @@
-package com.codewithnk.microservice_demo.v1.controller.request;
+package com.codewithnk.microservice_demo.controller.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,8 +9,8 @@ import lombok.experimental.Accessors;
 @Setter
 @NoArgsConstructor
 @Accessors(chain = true)
-public class AppRequest {
-    private StudentRequest student;
-    private SubjectRequest subject;
+public class StudentRequest {
+    private String fname;
+    private String lname;
+    private String dob;
 }
-
