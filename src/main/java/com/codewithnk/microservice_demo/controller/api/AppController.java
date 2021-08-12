@@ -18,7 +18,7 @@ public class AppController {
     private AppService service;
 
     @PostMapping(name = "CreateStudentRecord", value = "/student", consumes = "application/codewithnk.v1+json")
-    public ResponseEntity<Integer> createStudentRecordV1(AppRequest request) {
+    public ResponseEntity<Integer> createStudentRecordV1(@RequestBody AppRequest request) {
         Integer record = service.createStudentRecord(new AppModelDTOMapper().mapToDTO(request));
         return new ResponseEntity<>(record, HttpStatus.CREATED);
     }
@@ -42,7 +42,7 @@ public class AppController {
     }
 
     @PutMapping(name = "UpdateStudent", value = "/student", consumes = "application/codewithnk.v1+json")
-    public ResponseEntity<Integer> updateStudentV1(AppRequest request) {
+    public ResponseEntity<Integer> updateStudentV1(@RequestBody AppRequest request) {
         Integer record = service.updateStudent(new AppModelDTOMapper().mapToDTO(request));
         return new ResponseEntity<>(record, HttpStatus.CREATED);
     }
